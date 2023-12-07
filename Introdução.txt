@@ -1,0 +1,36 @@
+Como é um código limpo?
+
+> Legível e de fácil entendimento 
+> Deve ser conciso e direto ao ponto
+> Evita nomes não intuitivos e grandes blocos de código
+> Segue as melhores e mais comuns práticas e padrões
+> Deveria ser divertido de se escrever e manter, justamente por ser de fácil entendimento 
+
+• Um bom código conta uma história
+
+Pontos Chaves de um Código Limpo:
+
+Tópicos:
+
+1. Nomes:
+- Variáveis ;
+- Funções ;
+- Classes ;
+2. Estrutruas e comentários:
+- Formato do código ;
+- Bons e Maus comentários ;
+3. Funções:
+- Tamanho ;
+- Parâmetros ;
+4. Condicionais e Gerenciamento de Erros:
+- Aninhamento excessivo ;
+- Falta de gerenciamento de erros ;
+5. Classes e Estruturas de Dados:
+- Falta de distinção ;
+- Classes inchadas ;
+
+Soluções: 
+
+• Regras e conceitos 
+• Padrões e Princípios 
+• Desenvolvimento por meio de testes
