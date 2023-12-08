@@ -1,0 +1,45 @@
+• Nomes devem ter significado, transmitindo a ideia e o valor que uma variável ou uma função terá sem necessidade de muitos detalhes.
+
+COMO NOMEAR COISAS CORRETAMENTE?
+
+> Variáveis e constantes: 
+- Contém dados, como informações do usuários, validação de resultados ou uma lista de compras. 
+- Assim, use substantivos ou frases curtas com adjetivos, como: const userData ou const isValid. 
+
+> Funções/Módulos:
+- Comandos ou valores calculados, como enviar dados para um servidor, checar se uma entrada de dados do usuário é valida.
+- Desta forma, é bom usar verbos ou frases curtas com adjetivos, como: enviarDados(), inputIsValid(). 
+
+> Classes: 
+
+- São usadas para criar "coisas", como produtos ou um requisição body http.
+- Use nomes ou frases curtas com substantivos, como: class Usuário ou class RequeisicaoBody.
+
+CASOS DE NOMES:
+
+- Snake_case: nomes em letras minúsculas separadas por uma underline, como: is_valid, send_response; 
+
+- camelCase: nome da variável começa em minúsculas e sempre no início de uma palavra nova é usada uma letra maiúscula: isValid, sendResponse;
+
+- PascalCase: a única diferença entre esse caso e o camelCase é que a primeira letra também é maiuscúla: AdminRole, UserRepository;
+
+- kebab-case: todas as letras minúsculas separadas por um hífen: <side-drawer>;
+
+NOMEANDO VARIÁVEIS, CONSTANTES & PROPRIEDADES:
+
+Esses itens pode conter três valores e seu nome mudar conforme tais valores:
+
+-> O valor é um objeto: descreva esse valor, como "usuario" ou "base_de_dados". ENTRETANTO, além disso é bom prover mais detalhes, para evitar redundâncias. Logo, as mesmas variáveis do exemplo acima poderiam  ser renomeadas para "usuarioAutenticado" e "base_de_dados_SQL"
+
+-> O valor é um número ou um vetor: descreve esse valor da mesma forma, com "nome" ou "idade". Da mesma forma, seria bom renomear essas variaveis para evitar redundâncias para "primeiroNome", por exemplo
+
+-> O valor é um booleano: nesse caso, pergunte uma pergunta de verdadeiro ou falso, como "usuarioEstaAtivado" ou "foiLogado"
+
+NOMEANDO FUNÇÕES E MÉTODOS:
+
+-> A função executa uma operação: descreva essa operação, como "obterUsuarioPorEmail" ou "mandar_resposta"
+
+-> A função computa um valor lógico: pergunte uma pergunta de verdadeiro ou falso como "emailEValido" ou "compra_estaPaga"
+
+ 
+
